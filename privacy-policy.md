@@ -3,7 +3,7 @@
 
 制定日：2026年6月6日
 
-更新履歴：本プライバシーポリシーの更新履歴はGitHubで公開しておりますので、こちらの[GitHubリポジトリの変更履歴](https://github.com/datasign-inc/ai-monban/commits/main/privacy-policy.md)からご確認ください。
+更新履歴：本プライバシーポリシーの更新履歴はGitHubで公開しておりますので、こちらの[GitHubリポジトリの変更履歴](https://github.com/DataSignInc/ai-monban-public-doc/commits/main/privacy-policy.md)からご確認ください。
 
 ### はじめに
 
@@ -94,7 +94,7 @@
 
 ### 5.ご利用のブラウザから自動的に送信される情報について
 
-1. 当社では、本サービスおよび[AI MONBANウェブサイト](https://ai-monban.io/)において、ブラウザから送信される以下の情報を取得しています。
+1. 当社では、本サービスおよび[AI MONBANウェブサイト](https://ai-monban.com/)において、ブラウザから送信される以下の情報を取得しています。
     * IPアドレス
     * 閲覧したサイトのURL、リファラ（検索ワードを含みます）、アクセス日時
     * ブラウザのユーザーエージェント（OSの情報も含まれます）
@@ -120,4 +120,4 @@
 
 1. 本プライバシーポリシーに定められた内容は変更されることがあります。変更後のプライバシーポリシーについては、当サイトに掲載し、掲載された時から効力を生じるものとします。
 2. 取得した個人情報の利用目的を、変更前の利用目的と関連性を有すると合理的に認められる範囲を超えて変更する場合は、変更後の利用目的に対してご本人の同意を得た上で変更いたします。
-3. 本プライバシーポリシーの更新履歴はGitHubで公開しておりますので、こちらの[GitHubリポジトリの変更履歴](https://github.com/datasign-inc/ai-monban/commits/main/privacy-policy.md)からご確認ください。
+3. 本プライバシーポリシーの更新履歴はGitHubで公開しておりますので、こちらの[GitHubリポジトリの変更履歴](https://github.com/DataSignInc/ai-monban-public-doc/commits/main/privacy-policy.md)からご確認ください。
