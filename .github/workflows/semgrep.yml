@@ -1,0 +1,31 @@
+name: Semgrep (Secrets Scan)
+
+on:
+  pull_request:
+    branches: [develop]
+  schedule:
+    # 毎週月曜 10:00 JST (01:00 UTC)
+    - cron: "0 1 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  semgrep:
+    name: semgrep scan
+    runs-on: ubuntu-latest
+    container:
+      image: semgrep/semgrep:latest
+
+    env:
+      # このリポジトリはドキュメントのみのため、誤って秘密情報が
+      # コミットされていないかのチェックに限定する
+      SEMGREP_CONFIGS: --config p/secrets
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run Semgrep
+        run: semgrep scan $SEMGREP_CONFIGS --metrics=off
