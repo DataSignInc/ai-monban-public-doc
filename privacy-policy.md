@@ -1,7 +1,7 @@
 # AI MONBAN プライバシーポリシー
 ========
 
-制定日：2026年8月21日
+制定日：2026年6月6日
 
 更新履歴：本プライバシーポリシーの更新履歴はGitHubで公開しておりますので、こちらの[GitHubリポジトリの変更履歴](https://github.com/DataSignInc/ai-monban-public-doc/commits/main/privacy-policy.md)からご確認ください。
 
