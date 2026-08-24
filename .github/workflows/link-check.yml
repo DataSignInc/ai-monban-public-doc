@@ -1,0 +1,36 @@
+name: Link Check
+
+on:
+  push:
+    branches: [develop, main]
+    paths:
+      - "**/*.md"
+      - ".github/workflows/link-check.yml"
+  pull_request:
+    paths:
+      - "**/*.md"
+      - ".github/workflows/link-check.yml"
+  schedule:
+    # 毎週月曜 10:00 JST (01:00 UTC) — リンク先の外部サイト変更を検知する
+    - cron: "0 1 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lychee:
+    name: lychee link check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --max-retries 3
+            --accept 200,201,202,203,204,206,301,302,303,307,308,403,429
+            "*.md"
+          fail: true
