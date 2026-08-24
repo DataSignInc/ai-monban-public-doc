@@ -64,8 +64,6 @@
 当該外国における個人情報の保護に関する制度に関しては、個人情報保護委員会が公表する外国における個人情報の保護に関する制度等の調査についての情報をご確認ください。
 * [アメリカ（連邦）](https://www.ppc.go.jp/files/pdf/USA_report.pdf)
 * [アメリカ（カリフォルニア州）](https://www.ppc.go.jp/files/pdf/california_report.pdf)
-* [アメリカ（ワシントン州）](https://www.ppc.go.jp/files/pdf/Washington_report.pdf)
-* [アメリカ（マサチューセッツ州）](https://www.ppc.go.jp/files/pdf/massachusetts_report.pdf)
 
 ### 3.個人情報の開示・訂正等について
 
